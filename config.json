@@ -25,14 +25,14 @@
     },
     "domains": [
         {
-            "name": "baloo.one",
-            "backend": "1.1.1.1",
+            "name": "ohiocloud.org",
+            "backend": "113.30.148.208",
             "scheme": "http",
             "certificate": "assets/server/server.crt",
             "key": "assets/server/server.key",
             "webhook": {
-                "url": "https://discord.com/api/webhooks/1055573557880569886/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "name": "balooProxy",
+                "url": "https://discord.com/api/webhooks/1063059976819580969/PZJlMz_FBdHbkPJ7ehwoGUZOFO5nUKT9U8zUB2ypHkQRwDmvJHKiXyfTBA8p4wjZAURi",
+                "name": "AntiDDoS",
                 "avatar": "https://avatars.githubusercontent.com/u/73783549",
                 "attack_start_msg": "A DDoS attack has been detected against your domain `{{domain.name}}`",
                 "attack_stop_msg": "The DDoS attack against your domain `{{domain.name}}` has stopped"
